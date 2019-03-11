@@ -9,7 +9,7 @@
 ## Introduction
 ---
 Project was made by Wojciech Jenczalik,Łukasz Michowski and Paweł Bocian.  
-Hello, I am glad to see you reading this file. Project was created using Constrained Application Protocol (CoAP) and Arduino while studying at Warsaw University of Technology. Aspect of radio communication is explained in another [repo](https://github.com/PawelBocian/Arduino-nRF24L01-Radio-Communication-project) on my github. I am aware that code style isn't clean but I did as much as possible to make it understandable for all of you.
+Hello, I am glad to see you reading this file. Project was created using Constrained Application Protocol (CoAP) and Arduino while studying at Warsaw University of Technology. Aspect of radio communication is explained in another [repo](https://github.com/PawelBocian/Arduino-nRF24L01-Radio-Communication-project) on my github. I am aware that code style isn't clean but I did as much as possible to make it understandable for all of you.  
 Any questions send via mail at : **boocianpawel@gmail.com**
 
 ![](readme_images/readme_introduction.png)
