@@ -64,7 +64,7 @@ CoAP is part implemented in this project. Functionality implemented :
 
 ## Manual
 ---
-If you want to use this code u need to set correct MAC adress and your ethernet ip adress. You can find it using for example [WireShark](https://www.wireshark.org/).  
+If you want to use this, set correct MAC adress and your ethernet ip adress. You can find it using for example [WireShark](https://www.wireshark.org/).  
 To learn more about CoAP protocol read [this](https://tools.ietf.org/html/rfc7252).
 
 ## Example of work
