@@ -8,9 +8,11 @@
 
 ## Introduction
 ---
-Project was made by Wojciech Jenczalik,Łukasz Michowski and Paweł Bocian.
+Project was made by Wojciech Jenczalik,Łukasz Michowski and Paweł Bocian.  
 Hello, I am glad to see you reading this file. Project was created using Constrained Application Protocol (CoAP) and Arduino while studying at Warsaw University of Technology. Aspect of radio communication is explained in another [repo](https://github.com/PawelBocian/Arduino-nRF24L01-Radio-Communication-project) on my github. I am aware that code style isn't clean but I did as much as possible to make it understandable for all of you.
 Any questions send via mail at : **boocianpawel@gmail.com**
+
+![](readme_images/readme_introduction.png)
 
 ## Project architecture
 ---
@@ -19,17 +21,17 @@ Elements included in project architecture :
 * Server CoAP implemented on device Arduino UNO 
 * Connected with Arduino Mini Pro buzzer and potentiometer.
 
-//screen architektury
+![](readme_images/readme_architecture.png)
 
 ### Components and interfaces
 
 System contains Arduino Mini Pro, Buzzer, Potentiometer, Converter 5V -> 3.3V and [nRF24L01](https://github.com/PawelBocian/Arduino-nRF24L01-Radio-Communication) radio module.
 
-// screen mini
+![](readme_images/readme_miniSystem.png)
 
 System contains Arduino UNO and [nRF24L01](https://github.com/PawelBocian/Arduino-nRF24L01-Radio-Communication) radio module.
 
-// screen uno
+![](readme_images/readme_Unosystem.png)
 
 ### Resources
 
@@ -62,8 +64,8 @@ CoAP is part implemented in this project. Functionality implemented :
 
 ## Manual
 ---
-If you want to use this code u need to set correct MAC adress and your ethernet ip adress. You can find it using for example [WireShark](https://www.wireshark.org/).
-To learn CoAP protocol read [this](https://tools.ietf.org/html/rfc7252).
+If you want to use this code u need to set correct MAC adress and your ethernet ip adress. You can find it using for example [WireShark](https://www.wireshark.org/).  
+To learn more about CoAP protocol read [this](https://tools.ietf.org/html/rfc7252).
 
 ## Example of work
 
@@ -76,4 +78,4 @@ Example scenario:
 6. We perform the GET command
 7. We perform the GET command with the Accept: 50 (JSON) option
 
-/screen działania
+![](readme_images/example_of_work.png)
