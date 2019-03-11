@@ -17,7 +17,7 @@ Any questions send via mail at : **boocianpawel@gmail.com**
 ## Project architecture
 ---
 Elements included in project architecture :
-* Client CoAP – plug Copper in Mozilla Firefox browser.
+* Client CoAP – plugin Copper in Mozilla Firefox browser.
 * Server CoAP implemented on device Arduino UNO 
 * Connected with Arduino Mini Pro buzzer and potentiometer.
 
