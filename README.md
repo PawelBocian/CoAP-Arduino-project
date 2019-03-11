@@ -32,12 +32,11 @@ System contains Arduino UNO and [nRF24L01](https://github.com/PawelBocian/Arduin
 // screen uno
 
 ### Resources
----
-## Buzzer 
+
+#### Buzzer 
 Project handles request GET and PUT. Using it, client received actual value of frequency in Hertz. Using PUT request client can set rectangular signal generated with 50% fill and demanding frequency. 
 
-### Potentiometer
----
+#### Potentiometer
 Project handles GET request on resource. Client received then AnalogRead value from pin when Potentiometer is attached.
 
 ## Description 
@@ -66,3 +65,15 @@ CoAP is part implemented in this project. Functionality implemented :
 If you want to use this code u need to set correct MAC adress and your ethernet ip adress. You can find it using for example [WireShark](https://www.wireshark.org/).
 To learn CoAP protocol read [this](https://tools.ietf.org/html/rfc7252).
 
+## Example of work
+
+Example scenario:
+1. We start with a ping operation.
+2. We perform discover
+3. We call the discover with the Accept option: 40 (Link-format)
+4. We go to the metrics (Uri-Path)
+5. We are attempting to execute the POST command
+6. We perform the GET command
+7. We perform the GET command with the Accept: 50 (JSON) option
+
+/screen działania
