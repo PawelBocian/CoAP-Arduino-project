@@ -78,4 +78,4 @@ Example scenario:
 6. We perform the GET command
 7. We perform the GET command with the Accept: 50 (JSON) option
 
-![](readme_images/example_of_work.png)
+![](readme_images/readme_example_of_work.png)
